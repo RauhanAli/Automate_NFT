@@ -1,0 +1,4 @@
+// export const NFT_Parent = "0x6620318C595B5FDD625954F118f2c3EFC7aEF1e0" 
+// export const Parent = "0x1Da55c995bc17cbCC71793de7b03d63330C0E5eA"
+// export const NFT_goerli = "0x08F1a5fE3A4BfA3FccA4589A4Ae18a881072E6E3";
+export const NFT_BSC = "0xf61F0Ce803C598f866B169bE83019Aa61E8c0f88"

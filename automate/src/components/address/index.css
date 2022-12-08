@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+body {
+    /* background: #76b852; */
+    background-image: url("D:/BrandH20/nft-user/automate/public/back.png");
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 360px;
+    background-color: black;
+    opacity: 0.9;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 10px;
+    border-radius: 12px;
+    padding: 30px;
+  }
+
+  h1{
+    font-family: 'Roboto Slab', serif;
+    color: #e4d00a;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 30px;
+  }
+h5{
+  font-family: 'Roboto Slab', serif;
+  color:#e4d00a;
+  font-weight: 500;
+  text-align: center;
+}
+.next{
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+    text-align: center;
+    margin-left: 70px;
+    width: 50%;
+    box-sizing: border-box;
+    color: black;
+    background-color: #e4d00a;
+    border-radius: 5px 15px;
+  }
+
+  /*==============================Media Querry(Medium Devices)==============================*/
+  @media screen and (max-width: 1024px){
+    .container{
+      width: 65%;
+    }
+    .btn-next .next{
+      /* width: 150%; */
+      margin-left: 85px;
+
+    }
+    h1{
+      padding-right: 5px;
+    }
+  }
+
+  
+  /*==============================Media Querry(Small Devices)==============================*/
+  @media screen and (max-width: 600px){
+    .container{
+      width:50%;
+    }
+    .btn-next .next{
+      /* width: 150%; */
+      margin-left: 60px;
+
+    }
+      /* .col-lg-12 h1{
+      font-size: 10px;
+      } */
+    h5{
+      font-size: 10px;
+    }
+  }
+
+
+  .loading {
+    -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+    animation: sk-scaleout 1s infinite ease-in-out;
+    background-color: #124c62;
+    border-radius: 100%;
+    height: 6em;
+    width: 6em;
+  }
+
+  .container2 {
+    align-items: center;
+    background-image: "D:/BrandH20/nft-user/automate/public/back.png";
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* grid-template-columns:1fr; */
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  @keyframes sk-scaleout {
+    0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      opacity: 0.5;
+      transform: scale(1);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

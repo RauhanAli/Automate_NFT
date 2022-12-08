@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+body {
+  /* background: #76b852; */
+  background: #6F8FAF;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1{
+  width: 500px;
+  height: auto;
+  background-color: black;
+  opacity: 0.9;
+  margin: auto;
+  /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+  padding: 50px;
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+    color: #e4d00a;
+    font-weight: 500;
+    text-align: center;
+}
+
+.next{
+  align-items: center;
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+    text-align: center;
+    margin-left: 85px;
+    width: 50%;
+    box-sizing: border-box;
+    color: black;
+    background-color: #e4d00a;
+    border-radius: 5px 15px;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.success-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f89f8;
+  padding: 15px;
+  color: white;
+}
+
+.form-field {
+  background: rgb(26, 26, 26);
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  color: #e4d00a;
+}
+
+span {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+h2{
+    color: #f2f2f2;   
+}
+input {
+  /* background: #f2f2f2; */
+  background: rgb(26, 26, 26);
+  color: #e4d00a;
+  display: inline-block;
+  float: left;
+  width: 500px;
+  /* opacity: 0.3; */
+}
+.label{
+  color:#e4d00a;
+  font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: left;
+}
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+  /* background: #4caf50; */
+  /* background: #0047AB;
+  color: white; */
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+  /*==============================Media Querry(Medium Devices)==============================*/
+  @media screen and (max-width: 1024px){
+    .container1{
+      width: 58%
+    }
+    /* .next{
+      width: 50%;
+      margin-left: 150px;
+
+    } */
+    button{
+      width: 30%;
+      margin-left: 150px;
+    }
+    
+    h1{
+      font-size:larger;
+      padding-right: 80px;
+    }
+  }
+
+  
+  /*==============================Media Querry(Small Devices)==============================*/
+  @media screen and (max-width: 600px){
+    .container1{
+      width: 65%;
+      margin: 25px 30px 0 85px ;
+    }
+    .col-lg-8 .next{
+      margin-left: 180px;
+    }
+    /* .col-lg-8{
+      margin-top: 50px;
+    } */
+    .form-field{
+      padding-left: 150px;
+    }
+    .label{
+      padding-left: 150px;
+    }
+    h1{
+      font-size:x-large;
+      padding-left: 20px;
+    }
+  }
+  /*==============================Media Querry(Small Devices)==============================*/
+  @media screen and (max-width: 750px){
+    .container1{
+      width: 50%;
+      margin: 25px 30px 0 85px ;
+    }
+    .col-lg-8 .next{
+      margin-left: 180px;
+    }
+    /* .col-lg-8{
+      margin-top: 50px;
+    } */
+    .form-field{
+      padding-left: 150px;
+    }
+    .label{
+      padding-left: 150px;
+    }
+    h1{
+      font-size:x-large;
+      padding-left: 20px;
+    }
+  }
